@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Application: live demo DLP 2014
+Author:      @martimorta
+Date:        19.9.2014
+-->
+<launch>
+
+  <!-- Nodes -->
+  <!--  ROS Serial: llegeix les dades que envia l'arduino per USB i les transforma en topics
+        Descarregar:
+          sudo apt-get install ros-hydro-rosserial-python ros-hydro-rosserial-arduino
+  -->
+  <node pkg="rosserial_python"
+        type="serial_node.py"
+        name="rosserial_python"
+        output="screen">
+        <param name="port" value="/dev/ttyACM0"/>
+        <param name="baud" value="57600"/>
+  </node>
+
+  <!--  Camera USB: per veure com va el tinglado
+        Descarregar:
+          sudo apt-get install ros-hydro-usb-cam
+  -->
+  <node pkg="usb_cam"
+        type="usb_cam_node"
+        name="usb_cam"
+        output="screen">
+        <remap from="~image" to="/imatge_camera"/>
+        <param name="camera_frame_id" value="/cam"/>
+  </node>
+  
+  <!-- Viz & Config -->
+  
+  <!-- Arguments -->
+  <arg name="rviz"   default="false"/>
+  <arg name="config" default="config.rviz" />
+  <arg name="dr"     default="false"/>
+  <arg name="view"   default="false"/>
+  <arg name="plot"   default="false"/>
+
+  <node if="$(arg rviz)" name="rviz"            pkg="rviz"            type="rviz"
+        args="-d $(find live_demo)/config/viz/$(arg config)"/>
+  <node if="$(arg dr)"   name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" />
+  <node if="$(arg view)" name="rqt_image_view"  pkg="rqt_image_view"  type="rqt_image_view" />
+  <node if="$(arg plot)" name="rqt_plot"        pkg="rqt_plot"        type="rqt_plot" />
+
+</launch> 

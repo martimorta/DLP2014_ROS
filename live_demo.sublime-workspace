@@ -1,0 +1,799 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new_",
+				"new_min_point"
+			],
+			[
+				"test",
+				"test_array"
+			],
+			[
+				"by_",
+				"by_scans"
+			],
+			[
+				"end_",
+				"end_acquisition_type"
+			],
+			[
+				"verbos",
+				"verbose_position"
+			],
+			[
+				"CH",
+				"CH3DException"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"pack",
+				"packet_complete"
+			],
+			[
+				"file",
+				"filepath"
+			],
+			[
+				"strin",
+				"stringstream"
+			],
+			[
+				"clo",
+				"clouddataxyz"
+			],
+			[
+				"ans",
+				"ans_frame"
+			],
+			[
+				"uint",
+				"uint8_t"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "live_demo/launch/demo.launch",
+			"settings":
+			{
+				"buffer_size": 1612,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "live_demo/src/arduino_demo/arduino_demo.ino",
+			"settings":
+			{
+				"buffer_size": 1360,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "live_demo/cfg/live_demo.cfg",
+			"settings":
+			{
+				"buffer_size": 453,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 61.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax: c",
+				"Set Syntax: C"
+			],
+			[
+				"caps",
+				"Convert Case: Upper Case"
+			],
+			[
+				"syntax c++",
+				"Set Syntax: C/C++(11)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"synta",
+				"Set Syntax: C"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/mmorta/iri-lab/iri_ws/src/dlp2014/live_demo/src/arduino_demo.py",
+		"/home/mmorta/iri-lab/iri_ws/src/dlp2014/live_demo/launch/bumpers.launch",
+		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser3d/trunk/doc/doxygen.conf",
+		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser3d/trunk/src/examples/reset.cpp",
+		"/home/mmorta/iri-lab/iri_ws/src/iri_common_drivers/iri_slice_assembler/include/slice_assembler_alg_node.h",
+		"/home/mmorta/iri-lab/iri_ws/src/iri_common_drivers/iri_slice_assembler/src/slice_assembler_alg_node.cpp",
+		"/home/mmorta/iri-lab/iri_ws/src/perception_pcl/pcl_ros/pcl_nodelets.xml",
+		"/home/mmorta/iri-lab/iri_ws/src/perception_pcl/pcl_ros/cfg/CropBox.cfg",
+		"/home/mmorta/iri-lab/iri_ws/src/perception_pcl/pcl_ros/CMakeLists.txt",
+		"/home/mmorta/iri-lab/iri_ws/src/perception_pcl/pcl_ros/include/pcl_ros/filters/crop_box.h",
+		"/home/mmorta/iri-lab/iri_ws/src/perception_pcl/pcl_ros/src/pcl_ros/filters/crop_box.cpp",
+		"/home/mmorta/iri-lab/iri_ws/src/iri_common_drivers/iri_slice_assembler/package.xml",
+		"/home/mmorta/iri-lab/iri_ws/src/iri_common_drivers/iri_slice_assembler/CMakeLists.txt",
+		"/home/mmorta/iri-lab/iri_ws/src/iri_common_drivers/iri_hokuyo_laser3d/launch/h3d.launch",
+		"/home/mmorta/iri-lab/iri_ws/src/perception_pcl/pcl_ros/package.xml",
+		"/home/mmorta/iri-lab/iri_ws/src/perception_pcl/pcl_ros/src/pcl_ros/filters/cropbox.cpp",
+		"/home/mmorta/iri-lab/iri_ws/src/perception_pcl/pcl_ros/include/pcl_ros/filters/cropbox.h",
+		"/home/mmorta/Downloads/answers_ros_org_f20ea7fd9e16.css",
+		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser3d/trunk/src/h3d.h",
+		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser3d/trunk/src/h3d.cpp",
+		"/home/mmorta/iri-lab/iri_ws/src/iri_common_drivers/iri_hokuyo_laser3d/launch/h3d_slice_assembler.launch",
+		"/home/mmorta/iri-lab/iri_ws/src/iri_common_drivers/iri_hokuyo_laser3d/src/h3d_pc_assembler.py",
+		"/home/mmorta/iri-lab/iri_ws/src/teo_robot/teo_apps/launch/esborrar.launch",
+		"/home/mmorta/iri-lab/sublime-workspace/h3d.sublime-project",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_common_drivers/iri_hokuyo_laser3d/src/hokuyo_laser3d_driver_node.cpp",
+		"/home/mmorta/iri-lab/sublime-workspace/labrobotica/drivers/hokuyo_laser3d/trunk/src/Hokuyo3D.cpp",
+		"/home/mmorta/iri-lab/sublime-workspace/labrobotica/drivers/epos2_motor_controller/trunk/src/examples/test_like_h3d.cpp",
+		"/home/mmorta/iri-lab/sublime-workspace/labrobotica/drivers/epos2_motor_controller/trunk/src/examples/test_epos2.cpp",
+		"/home/mmorta/iri-lab/sublime-workspace/labrobotica/drivers/hokuyo_laser3d/trunk/src/Hokuyo3D.h",
+		"/home/mmorta/iri-lab/sublime-workspace/labrobotica/drivers/epos2_motor_controller/trunk/src/receive_frame.cpp",
+		"/home/mmorta/iri-lab/sublime-workspace/labrobotica/drivers/epos2_motor_controller/trunk/src/Epos2.cpp",
+		"/home/mmorta/iri-lab/sublime-workspace/labrobotica/drivers/hokuyo_laser3d/trunk/src/examples/test_hokuyo3D.cpp",
+		"/home/mmorta/iri-lab/sublime-workspace/labrobotica/drivers/epos2_motor_controller/trunk/src/Epos2.h",
+		"/home/mmorta/iri-lab/labrobotica/drivers/epos2_motor_controller/trunk/src/examples/test_delays.cpp",
+		"/home/mmorta/iri-lab/labrobotica/drivers/epos2_motor_controller/trunk/src/Epos2.cpp",
+		"/home/mmorta/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser3d/trunk/doc/main.dox",
+		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser3d/trunk/CMakeLists.txt",
+		"/home/mmorta/Desktop/beta-robots/index.html",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_segway_rmp/iri_segway_rmp400_odom_old/src/segway_rmp400_odom_2D_original.cpp",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_segway_rmp/iri_segway_rmp400_odom/manifest.xml",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_segway_rmp/iri_segway_rmp400_odom_old/src/segway_rmp400_odom_2D.cpp",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_segway_rmp/iri_segway_rmp200_odom/manifest.xml",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_segway_rmp/iri_segway_rmp200_odom/include/segway_rmp200_odom_alg_node.h",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_segway_rmp/iri_segway_rmp200_odom/src/segway_rmp200_odom_alg_node.cpp",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_segway_rmp/iri_segway_rmp200_odom/include/segway_rmp200_odom_alg.h",
+		"/home/mmorta/.config/sublime-text-2/Packages/Alignment/Base File.sublime-settings",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_segway_rmp/iri_segway_rmp400_odom/cfg/segway_rmp400_odom_alg_config.cfg",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_segway_rmp/iri_segway_rmp400_odom/src/segway_rmp400_odom_2D.cpp",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_odometry_publisher/iri_generic_odometry/include/generic_odometry_node/generic_odometry.h",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_segway_rmp/iri_segway_rmp400_odom/include/segway_rmp400_odom_2D.h",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_odometry_publisher/iri_generic_odometry/manifest.xml",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_odometry_publisher/iri_odometry_core/manifest.xml",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/teo_robot/teo_teleop/src/teleop_teo_wiimote.cpp",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/tibi_dabo_robot/tibi_dabo_hri_teleop/src/tibi_dabo_hri_teleop_alg_node.cpp",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/tibi_dabo_robot/tibi_dabo_hri_teleop/include/tibi_dabo_hri_teleop_alg_node.h",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_teleop/iri_wiimote_teleop/src/wiimote_teleop_base.cpp",
+		"/home/mmorta/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_teleop/iri_wiimote_teleop/src/wiimote_teleop_node.cpp",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/iri_teleop/iri_wiimote_teleop/include/iri_wiimote_teleop/wiimote_teleop_base.h",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/teo_robot/teo_hri_teleop/manifest.xml",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/teo_robot/teo_hri_teleop/CMakeLists.txt",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/teo_robot/teo_hri_teleop/mainpage.dox",
+		"/home/mmorta/iri-lab/ros/iri-ros-pkg/teo_robot/teo_hri_teleop/src/teleop_teo_wiimote.cpp",
+		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser_2d/trunk/src/hokuyo.cpp",
+		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser_2d/trunk/src/examples/continuous.cpp",
+		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser_2d/trunk/doc/main.dox",
+		"/home/mmorta/Desktop/Setmana de la ciència 2012",
+		"/home/mmorta/backup_laurel/teo-docs/installation.txt",
+		"/home/mmorta/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/mmorta/iri-lab/labrobotica/drivers/epos2_motor_controller/trunk/src/CMakeLists.txt",
+		"/home/mmorta/iri-lab/labrobotica/drivers/iriutils/trunk/src/threads/threadserver.h",
+		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser3d/trunk/src/Hokuyo3D.h",
+		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser3d/trunk/src/Hokuyo3D.cpp"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"myservo",
+			"v",
+			"color",
+			"PIN_",
+			"front",
+			"NO",
+			"private",
+			"puntXYZI",
+			"getLaser(",
+			"cmake_modules",
+			" <<",
+			"FilterConfig",
+			"Min",
+			"min",
+			"VoxelGrid",
+			"The size of a leaf (on x,y,z) used for downsampling.",
+			"passthrough",
+			"voxel_grid",
+			"author",
+			"@media",
+			"PASSTHROUGH",
+			"pcl_output",
+			"_STREAM",
+			"Point",
+			"minPoint",
+			";\n",
+			"// define minimum ",
+			" ",
+			">",
+			"<",
+			"PassThrough",
+			"'",
+			"test_array",
+			"pass.filter (*cloud);",
+			"my_var; ",
+			"data",
+			"sliceToXYZ",
+			"self->slice",
+			"slice",
+			"getSlice",
+			"this->slice",
+			"aux_cloud",
+			"this->",
+			"this->buffer_slices",
+			"this->",
+			"= ",
+			"this->",
+			" [numb",
+			"end_acquisition_time",
+			"this->end_acquisition_time",
+			"this->",
+			"this->end_acquisition_time",
+			"this->",
+			":init",
+			"init",
+			"opened",
+			"is_",
+			"open",
+			"motor_head",
+			"state:",
+			"read",
+			"read_ready",
+			"read",
+			"      printf(\"read: \");\n      for(int j=0;j<read_real;j++){\n        printf(\"%.2X \",read_buffer[j]);\n      }\n      printf(\"\\n\");",
+			"      if(total_avg==0)\n        total_avg = avg;\n      else\n        total_avg = (total_avg + avg)/2;\n\n      max_avg = max(max_avg,avg);\n      min_avg = min(min_avg,avg);",
+			"receiveFrame",
+			"method",
+			"filepath",
+			" vector <clouddataraw> scans_raw;\n    vector <clouddataxyz> scans_xyz;",
+			"filepath",
+			"VERSION .7",
+			"open",
+			"threadMotor",
+			"\n\nthreadMotor\nthreadMotor",
+			"by_time",
+			"fi_0",
+			"printf",
+			"output <<",
+			"%* of %",
+			"%* of ",
+			"d of ",
+			"qc",
+			"qc*dg",
+			"265",
+			"unsigned int",
+			"unsigned",
+			"unsigned short",
+			"fi_0",
+			"tavg",
+			"cout",
+			"throw",
+			"overvalue",
+			"CTimeEx",
+			"diff",
+			"ROS_INFO",
+			"this->",
+			"=",
+			"status_",
+			"]\n",
+			"status",
+			"  status.powerbase_battery=msg->powerbase_battery;",
+			"status",
+			"this->",
+			"this",
+			"this->",
+			"sigma_factor",
+			"\nMSG_BTN_Z",
+			"General"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oasis.tmTheme",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "live_demo/launch/demo.launch",
+					"settings":
+					{
+						"buffer_size": 1612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oasis.tmTheme",
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "live_demo/src/arduino_demo/arduino_demo.ino",
+					"settings":
+					{
+						"buffer_size": 1360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oasis.tmTheme",
+							"syntax": "Packages/C++/C.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "live_demo/cfg/live_demo.cfg",
+					"settings":
+					{
+						"buffer_size": 453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oasis.tmTheme",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.76030174446,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"doxygen",
+				"trunk/doc/doxygen.conf"
+			],
+			[
+				"reset.c",
+				"trunk/src/examples/reset.cpp"
+			],
+			[
+				"doxy",
+				"trunk/doc/doxygen.conf"
+			],
+			[
+				"h3d.la",
+				"iri_hokuyo_laser3d/launch/h3d.launch"
+			],
+			[
+				"h3d.",
+				"trunk/src/h3d.h"
+			],
+			[
+				"mani",
+				"teo_hri_teleop/manifest.xml"
+			],
+			[
+				"main",
+				"trunk/doc/main.dox"
+			],
+			[
+				"conti",
+				"trunk/src/examples/continuous.cpp"
+			],
+			[
+				"hok",
+				"trunk/src/hokuyo.cpp"
+			],
+			[
+				"thre",
+				"trunk/src/threads/threadserver.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/mmorta/iri-lab/sublime-workspace/teo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true
+}
