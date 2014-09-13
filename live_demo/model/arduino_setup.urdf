@@ -1,0 +1,48 @@
+<robot name="arduino_setup">
+  <link name="cos" >
+   <visual>
+      <geometry>
+        <box size="0.023 0.010 0.022"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 .8 0.6"/>
+      </material>
+    </visual>
+  </link>
+  
+  <link name="helice_eix" >
+    <visual>
+      <geometry>
+        <cylinder length="0.003" radius="0.0035"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="helices" >
+    <visual>
+      <geometry>
+        <box size="0.032 0.003 0.001"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+  </link>
+  
+  <joint name="eix" type="continuous">
+    <parent link="cos"/>
+    <child link="helice_eix"/>
+    <origin xyz="0.007 0.0 0.0125" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <joint name="helice" type="fixed">
+    <parent link="helice_eix"/>
+    <child link="helices"/>
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
+  </joint>
+  
+</robot>

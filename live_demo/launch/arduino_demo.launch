@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Application: live demo DLP 2014
+Author:      @martimorta
+Date:        19.9.2014
+-->
+<launch>
+
+  <!--  Paràmetre "robot_description": afegeix l'arxiu de descripció del robot al servidor de paràmetres
+        Robot State Publisher: publica la descripció del robot
+        Joint State Publisher: publica la posició dels eixos
+  -->
+  <param name="robot_description" command="cat $(find live_demo)/model/arduino_setup.urdf" />
+  <node pkg="robot_state_publisher" type="state_publisher"       name="state_publisher" ></node>
+
+  <!-- Nodes -->
+  <node pkg="live_demo"
+        type="node_demo.py"
+        name="node_demo"
+        output="screen">
+  </node>
+
+  <!--  ROS Serial: llegeix les dades que envia l'arduino per USB i les transforma en topics
+        Descarregar:
+          sudo apt-get install ros-hydro-rosserial-python ros-hydro-rosserial-arduino
+  -->
+  <arg name="rosserial" default="true"/>
+  <node if="$(arg rosserial)"
+        pkg="rosserial_python"
+        type="serial_node.py"
+        name="rosserial_python"
+        output="screen">
+        <param name="port" value="/dev/ttyUSB0"/>
+        <param name="baud" value="57600"/>
+  </node>
+
+  <!--  Camera USB: per veure com va el tinglado
+        Descarregar:
+          sudo apt-get install ros-hydro-usb-cam
+  -->
+  <arg name="cam" default="true"/>
+  <node if="$(arg cam)"
+        pkg="usb_cam"
+        type="usb_cam_node"
+        name="usb_cam"
+        output="screen">
+        <remap from="~image" to="/imatge_camera"/>
+        <param name="~video_device" value="/dev/video1"/>
+        <param name="~image_width" value="640"/>
+        <param name="~image_height" value="480"/>
+        <param name="~pixel_format" value="yuyv"/> <!-- Possible values are mjpeg, yuyv, uyvy -->
+        <param name="~io_method" value="mmap"/> <!-- Possible values are mmap, read, userptr -->
+        <param name="~camera_frame_id" value="/camera"/>
+        <param name="~framerate" value="30"/>
+  </node>
+  
+  <!-- Viz & Config -->
+  
+  <!-- Arguments -->
+  <arg name="rviz"   default="false"/>
+  <arg name="config" default="arduino_demo.rviz" />
+  <arg name="dr"     default="false"/>
+  <arg name="view"   default="false"/>
+  <arg name="plot"   default="false"/>
+  <arg name="gui"   default="false"/>
+
+  <node if="$(arg rviz)" name="rviz"            pkg="rviz"            type="rviz"
+        args="-d $(find live_demo)/config/$(arg config)"/>
+  <node if="$(arg dr)"   name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" />
+  <node if="$(arg view)" name="rqt_image_view"  pkg="rqt_image_view"  type="rqt_image_view" />
+  <node if="$(arg plot)" name="rqt_plot"        pkg="rqt_plot"        type="rqt_plot" />
+  <node if="$(arg gui)"  name="rqt_gui"         pkg="rqt_gui"         type="rqt_gui" />
+
+</launch> 

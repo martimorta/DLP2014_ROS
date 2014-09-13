@@ -13,7 +13,7 @@ find_package(catkin REQUIRED)
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
 ## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html
-# catkin_python_setup()
+#catkin_python_setup()
 
 ################################################
 ## Declare ROS messages, services and actions ##
@@ -66,6 +66,9 @@ find_package(catkin REQUIRED)
 #   std_msgs  # Or other packages containing msgs
 # )
 
+#add dynamic reconfigure api
+#generate_dynamic_reconfigure_options(cfg/LiveDemo.cfg)
+
 ###################################
 ## catkin specific configuration ##
 ###################################
@@ -89,6 +92,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 # include_directories(include)
+#include_directories(${catkin_INCLUDE_DIRS})
 
 ## Declare a cpp library
 # add_library(live_demo
@@ -154,3 +158,6 @@ catkin_package(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+# make sure configure headers are built before any node using them
+#add_dependencies(interficie ${PROJECT_NAME}_gencfg)
