@@ -1,58 +1,25 @@
-DLP2014_ROS
-===========
+Demo Live! ROS: Robòtica i software lliure
+==========================================
 Codi de la demo "Live!" al Dia de la Llibertat de Programari a la Palma de Cervelló el 19.9.2014
 
-Muntatge Hardware
------------------
+Wiki
+----
+A la wiki hi trobareu tota la informació necessària per reproduïr l'experiment, des del muntatge electrònic amb Arduino, passant per la instal·lació del programari fins a referències on s'explica com es fan servir les diferents llibreries i troços de codi.
 
-### Pins
-- 3 LED R
-- 5 LED G
-- 6 LED B
-- 9 Servo Motor
-- A0 Potenciòmetre
+[Home](https://github.com/martimorta/DLP2014_ROS/wiki)
 
-### Altres consideracions
-- Cal afegir una resistència a les potes RGB del LED, per exemple de 10kΩ
+[Muntatge Hardware](https://github.com/martimorta/DLP2014_ROS/wiki/Muntatge-Hardware)
 
-Més informació a la presentació http://slides.com/martimorta/rrpl
+[Instal·lació i llançament del programari](https://github.com/martimorta/DLP2014_ROS/wiki/Instal%C2%B7laci%C3%B3-i-llan%C3%A7ament-del-programari)
 
-Instal·lació Software
----------------------
+[Referències](https://github.com/martimorta/DLP2014_ROS/wiki/Refer%C3%A8ncies)
 
-### Arduino IDE
+### +info
 
-`sudo apt-get install arduino`
- 
-Es fa servir la llibreria Servo
+Presentació: http://slides.com/martimorta/rrpl
 
-### ROS
+Twitter: [@martimorta](http://www.twitter.com/martimorta)
 
-He fet servir la versió Hydro. Per fer servir una altra versió només cal que canvieu els noms d'Hydro a per exemple Indigo.
-Seguiu els passos detallats a http://wiki.ros.org/hydro/Installation
 
-A més, necessitareu els paquets
-
-`sudo apt-get install ros-hydro-rosserial-python ros-hydro-rosserial-arduino ros-hydro-usb-cam`
-
-I crear-vos un espai de treball (catkin) ROS http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
-
-### CODI live_demo
-
-Heu d'afegir aquest repositori al vostre espai de treball amb
-
-`wstool set live_demo --git https://github.com/martimorta/DLP2014_ROS`
-
-per llençar l'aplicació podeu fer servir el launch file i si voleu els paràmetres _opcionals_
-
-`roslaunch live_demo arduino_demo.launch parametre:=valor`
-
-#### Paràmetres
-- node: executar o no el node_demo (defecte: true)
-- rosserial: executar o no el lector de port sèrie (true)
-- cam: executar o no la càmera (true)
-- rviz: obrir el visualizador 3D (false)
-- plot: obrir la finestra de gràfiques (false)
-- gui: obrir la GUI completa (false)
 
 
