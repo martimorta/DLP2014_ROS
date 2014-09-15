@@ -60,50 +60,66 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 121,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "live_demo/src/arduino_demo/arduino_demo.ino",
 			"settings":
 			{
-				"buffer_size": 1360,
+				"buffer_size": 1622,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/marti/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+			"file": "live_demo/CMakeLists.txt",
 			"settings":
 			{
-				"buffer_size": 525,
+				"buffer_size": 5534,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "live_demo/launch/demo.launch",
+			"file": "live_demo/package.xml",
 			"settings":
 			{
-				"buffer_size": 1612,
+				"buffer_size": 1997,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/marti/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+			"file": "live_demo/cfg/LiveDemo.cfg",
 			"settings":
 			{
-				"buffer_size": 13677,
+				"buffer_size": 351,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "live_demo/cfg/live_demo.cfg",
+			"file": "live_demo/src/node_demo.py",
 			"settings":
 			{
-				"buffer_size": 453,
+				"buffer_size": 1156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dynamic_tutorials/CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 5602,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dynamic_tutorials/package.xml",
+			"settings":
+			{
+				"buffer_size": 2252,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dynamic_tutorials/nodes/server.py",
+			"settings":
+			{
+				"buffer_size": 468,
 				"line_ending": "Unix"
 			}
 		}
@@ -172,6 +188,12 @@
 	},
 	"file_history":
 	[
+		"/home/mmorta/iri-lab/iri_ws/src/dlp2014/dynamic_tutorials/cfg/Tutorials.cfg",
+		"/home/mmorta/iri-lab/iri_ws/src/dlp2014/live_demo/cfg/live_demo.cfg",
+		"/home/marti/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/mmorta/iri-lab/iri_ws/src/dlp2014/README.md",
+		"/home/marti/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/mmorta/iri-lab/iri_ws/src/dlp2014/live_demo/launch/demo.launch",
 		"/home/mmorta/iri-lab/iri_ws/src/dlp2014/live_demo/src/arduino_demo.py",
 		"/home/mmorta/iri-lab/iri_ws/src/dlp2014/live_demo/launch/bumpers.launch",
 		"/home/mmorta/iri-lab/labrobotica/drivers/hokuyo_laser3d/trunk/doc/doxygen.conf",
@@ -263,6 +285,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dynamic_tutorials",
 			"myservo",
 			"v",
 			"color",
@@ -388,98 +411,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 121,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Oasis.tmTheme",
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "live_demo/src/arduino_demo/arduino_demo.ino",
 					"settings":
 					{
-						"buffer_size": 1360,
+						"buffer_size": 1622,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								192
+								288,
+								288
 							]
 						],
 						"settings":
@@ -544,19 +492,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/home/marti/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+					"buffer": 1,
+					"file": "live_demo/CMakeLists.txt",
 					"settings":
 					{
-						"buffer_size": 525,
+						"buffer_size": 5534,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								293,
-								293
+								269,
+								269
 							]
 						],
 						"settings":
@@ -609,8 +557,8 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oasis.tmTheme",
+							"syntax": "Packages/CMake/CMake.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -619,19 +567,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "live_demo/launch/demo.launch",
+					"buffer": 2,
+					"file": "live_demo/package.xml",
 					"settings":
 					{
-						"buffer_size": 1612,
+						"buffer_size": 1997,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								124,
-								124
+								1727,
+								1727
 							]
 						],
 						"settings":
@@ -690,25 +638,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 300.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/home/marti/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+					"buffer": 3,
+					"file": "live_demo/cfg/LiveDemo.cfg",
 					"settings":
 					{
-						"buffer_size": 13677,
+						"buffer_size": 351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2038,
-								2038
+								106,
+								106
 							]
 						],
 						"settings":
@@ -761,30 +709,264 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oasis.tmTheme",
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 599.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "live_demo/cfg/live_demo.cfg",
+					"buffer": 4,
+					"file": "live_demo/src/node_demo.py",
 					"settings":
 					{
-						"buffer_size": 453,
+						"buffer_size": 1156,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22,
-								22
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oasis.tmTheme",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "dynamic_tutorials/CMakeLists.txt",
+					"settings":
+					{
+						"buffer_size": 5602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5542,
+								5542
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oasis.tmTheme",
+							"syntax": "Packages/CMake/CMake.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dynamic_tutorials/package.xml",
+					"settings":
+					{
+						"buffer_size": 2252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1324,
+								1324
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oasis.tmTheme",
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 680.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "dynamic_tutorials/nodes/server.py",
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
 							]
 						],
 						"settings":
@@ -847,11 +1029,6 @@
 					"type": "text"
 				}
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
@@ -882,7 +1059,7 @@
 		"cols":
 		[
 			0.0,
-			0.76030174446,
+			0.539651107968,
 			1.0
 		],
 		"rows":

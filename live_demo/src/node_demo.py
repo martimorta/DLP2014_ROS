@@ -1,9 +1,15 @@
 #!/usr/bin/env python
 import rospy
 import tf
+from dynamic_reconfigure.server import Server
+from live_demo.cfg import LiveDemoConfig
 from std_msgs.msg import Int32
 from std_msgs.msg import ColorRGBA
 import math
+
+def reconfigureCb(config, level):
+    rospy.loginfo("""Reconfiugre Request: {R}, {G}, {B}""".format(**config))
+    return config
 
 def posicioCb(msg):
     br = tf.TransformBroadcaster()
@@ -21,4 +27,5 @@ if __name__ == '__main__':
     print "node_demo INICIAT "
     rospy.Subscriber('/posicio', Int32, posicioCb)
     pub = rospy.Publisher('/color', ColorRGBA)
+    srv = Server(LiveDemoConfig, reconfigureCb)
     rospy.spin()
