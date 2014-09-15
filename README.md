@@ -2,10 +2,10 @@ Demo Live! ROS: Robòtica i software lliure
 ==========================================
 Codi de la demo "Live!" al Dia de la Llibertat de Programari a la Palma de Cervelló el 19.9.2014
 
-En aquesta Wiki trobareu tota la informació necessària per reproduïr l'experiment, des del muntatge electrònic amb Arduino, passant per la instal·lació del programari fins a referències on s'explica com es fan servir les diferents llibreries i troços de codi.
-
 Wiki
 ----
+A la wiki hi trobareu tota la informació necessària per reproduïr l'experiment, des del muntatge electrònic amb Arduino, passant per la instal·lació del programari fins a referències on s'explica com es fan servir les diferents llibreries i troços de codi.
+
 [Home](https://github.com/martimorta/DLP2014_ROS/wiki)
 
 [Muntatge Hardware](https://github.com/martimorta/DLP2014_ROS/wiki/Muntatge-Hardware)
