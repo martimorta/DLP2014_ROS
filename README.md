@@ -8,9 +8,9 @@ Wiki
 ----
 [Home](https://github.com/martimorta/DLP2014_ROS/wiki)
 
-[Instal·lació i llançament del programari](https://github.com/martimorta/DLP2014_ROS/wiki/Instal%C2%B7laci%C3%B3-i-llan%C3%A7ament-del-programari)
-
 [Muntatge Hardware](https://github.com/martimorta/DLP2014_ROS/wiki/Muntatge-Hardware)
+
+[Instal·lació i llançament del programari](https://github.com/martimorta/DLP2014_ROS/wiki/Instal%C2%B7laci%C3%B3-i-llan%C3%A7ament-del-programari)
 
 [Referències](https://github.com/martimorta/DLP2014_ROS/wiki/Refer%C3%A8ncies)
 
