@@ -11,7 +11,7 @@
 
 ros::NodeHandle nh;
 
-// === publisher ===
+// === publishers ===
 std_msgs::Int32 pot_value;
 ros::Publisher potenciometrePub("/potenciometre", &pot_value);
 std_msgs::Int32 motor_value;
@@ -20,8 +20,6 @@ Servo motor_servo;
 
 // === subscriber ===
 void colorCb( const std_msgs::ColorRGBA& color_value){
-  // canvia el color del led
-  // http://www.instructables.com/id/Fading-RGB-LED-Arduino/?ALLSTEPS
   analogWrite( PIN_LED_VERMELL, color_value.r );
   analogWrite( PIN_LED_VERD,    color_value.g );
   analogWrite( PIN_LED_BLAU,    color_value.b );

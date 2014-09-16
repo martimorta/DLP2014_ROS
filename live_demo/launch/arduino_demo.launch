@@ -8,13 +8,15 @@ Date:        19.9.2014
 
   <!--  Paràmetre "robot_description": afegeix l'arxiu de descripció del robot al servidor de paràmetres
         Robot State Publisher: publica la descripció del robot
-        Joint State Publisher: publica la posició dels eixos
   -->
   <param name="robot_description" command="cat $(find live_demo)/model/arduino_setup.urdf" />
   <node pkg="robot_state_publisher" type="state_publisher"       name="state_publisher" ></node>
 
-  <!-- Nodes -->
-  <node pkg="live_demo"
+  <!-- Node Demo: Aquest node s'encarrega de convertir la posició del motor i enviar-la al
+                  gestor de transformades "tf". També controla el color del LED -->
+  <arg name="node" default="true"/>
+  <node if="$(arg node)"
+        pkg="live_demo"
         type="node_demo.py"
         name="node_demo"
         output="screen">
@@ -29,7 +31,7 @@ Date:        19.9.2014
         pkg="rosserial_python"
         type="serial_node.py"
         name="rosserial_python"
-        output="screen">
+        output="log">
         <param name="port" value="/dev/ttyUSB0"/>
         <param name="baud" value="57600"/>
   </node>
