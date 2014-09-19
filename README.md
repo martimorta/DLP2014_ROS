@@ -16,7 +16,7 @@ A la wiki hi trobareu tota la informació necessària per reproduïr l'experimen
 
 ### +info
 
-Presentació: http://slides.com/martimorta/rrpl
+Presentació: http://slides.com/martimorta/dlp2014_ros
 
 Twitter: [@martimorta](http://www.twitter.com/martimorta)
 
